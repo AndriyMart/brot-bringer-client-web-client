@@ -1,0 +1,30 @@
+.bakeryGeneralInfoCoverImage {
+    height: 400px;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.bakeryGeneralInfoContent {
+    width: calc(100vw - 40px);
+    max-width: 500px;
+    color: #fbfaf9;
+    margin: -100px 20px 0;
+    padding: 10px;
+    background: rgba(33, 33, 32, 0.73);
+    text-align: justify;
+}
+
+.bakeryGeneralInfoLogo {
+    height: 80px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.bakeryGeneralInfoName {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}

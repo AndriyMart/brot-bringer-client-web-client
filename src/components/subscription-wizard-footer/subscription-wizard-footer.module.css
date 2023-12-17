@@ -1,0 +1,40 @@
+.subscriptionWizardFooterContainer {
+    width: 100%;
+}
+
+.subscriptionWizardFooterPlaceholder {
+    width: 100%;
+    height: 60px;
+}
+
+.subscriptionWizardFooter {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    background: #fbfaf9;
+    border-top: 1px solid rgba(246, 181, 9, 0.29);
+}
+
+.subscriptionWizardFooterNextButton,
+.subscriptionWizardFooterBackButton {
+    border: 2px solid #f6b509;
+    color: #f6b509;
+    background: transparent;
+    padding: 0.3rem 0.7rem;
+}
+
+.subscriptionWizardButtonContainer {
+    display: flex;
+    align-items: center;
+}
+
+.subscriptionWizardFooterNextButtonDisabled {
+    border: 2px solid lightgray;
+    color: lightgray;
+    pointer-events: none;
+}

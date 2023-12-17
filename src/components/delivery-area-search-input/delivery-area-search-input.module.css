@@ -1,0 +1,21 @@
+.deliveryAreaSearchInput {
+    padding: 10px 0;
+    display: flex;
+    width: 300px;
+    margin-right: -20px;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.deliveryAreaSearchPositiveResult {
+    text-wrap: none;
+    margin-top: 3px;
+    font-size: 12px;
+}
+
+.deliveryAreaSearchInputNegativeResult {
+    text-wrap: none;
+    margin-top: 3px;
+    color: red;
+    font-size: 12px;
+}

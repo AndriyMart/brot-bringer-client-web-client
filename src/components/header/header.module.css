@@ -1,0 +1,25 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background: #fbfaf9;
+    z-index: 10;
+    border-bottom: 1px solid rgba(246, 181, 9, 0.29);
+}
+
+.headerPlaceholder {
+    height: 86px;
+    width: 100%;
+}
+
+.headerLoginButton {
+    border: 2px solid #f6b509;
+    color: #f6b509;
+    background: transparent;
+    padding: 0.3rem 0.7rem;
+}

@@ -1,0 +1,23 @@
+.deliveryItemsTotalPlaceholderContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.deliveryItemsTotalPlaceholder {
+    margin-right: 20px;
+    height: 40px;
+    width: 200px;
+    background: #fbfaf9;
+}
+
+.deliveryItemsTotal {
+    position: fixed;
+    right: 20px;
+    bottom: 60px;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(251, 250, 249, 0.75);
+}

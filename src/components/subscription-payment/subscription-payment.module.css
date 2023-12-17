@@ -1,0 +1,53 @@
+.stripeForm {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(
+        135deg,
+        rgba(255, 216, 0, 0.4),
+        rgba(255, 204, 102, 0.4)
+    );
+}
+
+.blackStripe {
+    margin: 0 -20px;
+    margin-bottom: 20px;
+    width: calc(100% + 40px);
+    height: 35px;
+    background: rgba(14, 14, 14, 0.89);
+}
+
+.inputGroup {
+    margin-bottom: 15px;
+}
+
+.inputGroup label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+.inputGroup div {
+    min-width: 50px;
+    color: #9ca3af;
+}
+
+.submitBtn {
+    border: 2px solid #f6b509;
+    color: #f6b509;
+    background: transparent;
+    padding: 0.3rem 0.7rem;
+}
+
+.submitBtn:hover {
+    background-color: #d99f00;
+}
+
+.submitBtn:disabled {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+}
